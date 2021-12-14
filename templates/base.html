@@ -1,15 +1,24 @@
 {% load static %}
 <!DOCTYPE html>
 <html lang="en">
+    <link href="{% static 'css/css2.css' %}" rel="stylesheet" />
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <title>Base</title>
+        <title>Main Page</title>
         <link rel="stylesheet" href='#'>
     </head>
+
+
+    <div class = "header" style="background-image"> 
+        <img src="{% static 'img/banner.jpg' %}" rel="stylesheet" width = 299px>
+        <h1> TrailerPark
+            <ul> 
+                <p> <a href= "{% url 'index' %}"> Home Page </a> | <a href= "{% url 'favs' %}"> Favorite Movies </a> |  <a href= "{% url 'movies' %}"> All  Movies </a> </p>
+            </ul>
+        </h1>
+    </div>
     <body>
-
-
         {% block content %}
         {% endblock %}
     </body>

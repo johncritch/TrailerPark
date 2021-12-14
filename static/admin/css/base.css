@@ -86,10 +86,18 @@
     --selected-bg: #1b1b1b;
     --selected-row: #00363a;
 
-    --close-button-bg: #333333;
+    --close-button-bg: a#333333;
     --close-button-hover-bg: #666666;
   }
 }
+
+header {
+    padding: 60px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 30px;
+  }
 
 html, body {
     height: 100%;
@@ -151,7 +159,7 @@ h1,h2,h3,h4,h5 {
 h1 {
     margin: 0 0 20px;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 200px;
     color: var(--body-quiet-color);
 }
 
