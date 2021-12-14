@@ -6,7 +6,13 @@ from moviepages.models import Movie, Rating
 
 # Create your views here.
 def indexPageView(request):
-    return render(request, 'moviepages/index.html')
+    movies = Movie.objects.all().order_by('-release_date')
+
+    context = {
+        "movies": movies
+    }
+    return render(request, 'moviepages/index.html', context)
+
 
 def ourFavoritesPageView(request):
     return render(request, 'moviepages/favs.html')
