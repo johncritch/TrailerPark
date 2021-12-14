@@ -18,10 +18,6 @@ p {
     font-size: 25px
 }
 
-a:visited {
-    color: white;
-}
-
 table {
     table-layout: fixed;
     width: 100%;
