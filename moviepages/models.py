@@ -3,10 +3,10 @@ from datetime import datetime
 
 # Create your models here.
 class Movie(models.Model):
-    title = models.CharField(max_length=30)
+    title = models.CharField(max_length=50)
     actors = models.CharField(max_length=255)
-    producers = models.CharField(max_length=30)
-    directors = models.CharField(max_length=30, default = None)
+    producers = models.CharField(max_length=100)
+    directors = models.CharField(max_length=100, default = None)
     genre = models.CharField(max_length=20, default = None)
     release_date = models.DateField(default=datetime.today, blank=True)
     poster = models.ImageField(upload_to='photos')

@@ -1,7 +1,73 @@
 h1 {
-    padding: 60px;
-    text-align: center;
-    background: #1abc9c;
-    color: white;
-    font-size: 60px;
+  padding: 60px;
+  text-align: center;
+  background: lightgrey;
+  color: white;
+  font-size: 60px;
+}
+
+h2 {
+  padding: 20px;
+  text-align: center;
+  background: #373d3cda;
+  color: white;
+  font-size: 30px;
+}
+
+p {
+  font-size: 25px
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid rgb(163, 163, 163);
+  }
+
+html {
+  font-family: 'helvetica neue', helvetica, arial, sans-serif;
+}
+
+th {
+  letter-spacing: 2px;
+  font-size: 20px;
+  font-weight: bolder;
+  height: 40px;
+}
+
+td {
+  border: 10 px;
+  letter-spacing: 1px;
+}
+
+tbody td {
+  text-align: center;
+  padding: 10px;
+  font-size: 18px;
+}
+
+tfoot th {
+  text-align: right;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #e1e1e194;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #d6d6d680;
+}
+
+.whitecolor {
+  color:whitesmoke;
+}
+
+.basecolor {
+  background-color: peachpuff;
+  background-color: #3d94e0;
+}
+
+.h1forlife{
+  background-color:lightskyblue;
 }
