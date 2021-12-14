@@ -1,34 +1,37 @@
 {% extends 'base.html' %}
 {% load static %}
 {% block content %}
-<h1>Here Are Our Favorite Upcoming Movies!</h1>
-<table>
-    <tr>
-        <th>Hype Score</th>
-        <th  width = 175px>Title</th>
-        <th>Actors</th>
-        <th>Producers</th>
-        <th>Directors</th>
-        <th>Genre</th>
-        <th>Release Date</th>
-        <th>Poster</th>
-        <th  width = 250px>Trailer</th>
-    </tr>
-    {% for movie in movies %}
-    <tr>
-        <td>{{movie.rating.rating}}</td>
-        <td>{{movie.title}}</td>
-        <td>{{movie.actors}}</td>
-        <td>{{movie.producers}}</td>
-        <td>{{movie.directors}}</td>
-        <td>{{movie.genre}}</td>
-        <td>{{movie.release_date}}</td>
-        <td><img src="{{movie.poster.url}}" alt="{{movie.title}} poster" width="100" height="150"></td>
-        <td>
-            <iframe width="225" height="150" src="{{movie.trailer}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </td>
-    </tr>
+<link href="{% static 'bootstrap.css' %}" rel="stylesheet" />
+<body style="background-color: lightskyblue;">
+    <h1>Here Are Our Favorite Upcoming Movies!</h1>
+    <table>
+        <tr>
+            <th>Hype Score</th>
+            <th  width = 175px>Title</th>
+            <th>Actors</th>
+            <th>Producers</th>
+            <th>Directors</th>
+            <th>Genre</th>
+            <th>Release Date</th>
+            <th>Poster</th>
+            <th  width = 250px>Trailer</th>
+        </tr>
+        {% for movie in movies %}
+        <tr>
+            <td>{{movie.rating.rating}}</td>
+            <td>{{movie.title}}</td>
+            <td>{{movie.actors}}</td>
+            <td>{{movie.producers}}</td>
+            <td>{{movie.directors}}</td>
+            <td>{{movie.genre}}</td>
+            <td>{{movie.release_date}}</td>
+            <td><img src="{{movie.poster.url}}" alt="{{movie.title}} poster" width="100" height="150"></td>
+            <td>
+                <iframe width="225" height="150" src="{{movie.trailer}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </td>
+        </tr>
 
-    {% endfor %}
-</table>
+        {% endfor %}
+    </table>
+</body>
 {% endblock %}

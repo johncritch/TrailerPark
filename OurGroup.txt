@@ -33,3 +33,75 @@ Genre: Animation/Fantasy
 Date: June 17th 2022
 Poster: https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F6138c56def0fefe0a3f2fe73%2F0x0.jpg
 Trailer: https://www.youtube.com/embed/nNpvWBuTfrc
+
+Sing 2 
+Title: Sing 2
+Actors: Matthew McConaughey, Resse Witherspoon
+Producers: Janet Healy 
+Directors: Garth Jennings
+Genre: Animation/Fantasy
+Date: Dec 22, 2021
+Poster: https://www.filmjabber.com/posters/6681-movie-poster.jpg
+Trailer: https://www.youtube.com/watch?v=AAnkc01ITpw
+
+The Batman
+Title: The Batman
+Actors: Robert Pattison, Zoe Kravitz
+Producers: DC Comics, Warner Bros
+Directors: Matt Reeves
+Genre: Action/Adventure
+Date: March 4, 2022
+Poster:https://static1.colliderimages.com/wordpress/wp-content/uploads/2021/10/the-batman-new-poster-social-featured.jpg
+Trailer: https://www.youtube.com/watch?v=AJmEaYsLYB8
+
+Avatar 2
+Title: Avatar 2  
+Actors: Kate Winslet, Michelle Yeoh
+Producers: 20th century studio
+Directors: James Cameron
+Genre: Action/Adventure
+Date: Dec 16, 2022
+Poster: https://media.senscritique.com/media/000019170937/source_big/Avatar_2.jpg
+Trailer: https://www.youtube.com/watch?v=blGnSGfLcyI
+
+The Flash
+Title: The Flash
+Actors: Ben Affleck, Michael Keaton
+Producers: DC Films
+Directors: Andy Muschietti 
+Genre: Action/Fantasy
+Date: Nov, 4 2022
+Poster: https://image.tmdb.org/t/p/original/oduJooXJya3u6wuA6FgljAFCEQp.jpg
+Trailer: https://www.youtube.com/watch?v=drQWopZDEEY
+
+John Wick: Chapter 4 
+Title: John Wick: Chapter 4 
+Actors: Keanu Reeves, Bill Skarsgard
+Producers: Michael Finch
+Directors: Chad Stahelski
+Genre: Action/Thriller
+Date: May 27, 2022
+Poster: https://image.tmdb.org/t/p/original/kPsRQfoyYgcpbI6hvDQvUSCo0q3.jpg
+Trailer: https://www.youtube.com/watch?v=2AUmvWm5ZDQ
+
+Doctor Strange in the Multiverse of Madness
+Title: Doctor Strange in the Multiverse of Madness
+Actors: Benedict Cumberbatch, Elizabeth Olson
+Producers: Scott Derrickson
+Directors:Sam Raimi
+Genre: Action/Fantasy
+Date: May 6,2022
+Poster:https://hivamovie.com/wp-content/uploads/2020/01/doctor-strange-min.jpg
+Trailer: https://www.youtube.com/watch?v=7Ep5ObGAK0w
+
+
+Mission: Impossible 7
+Title: Mission: Impossible 7
+Actors: Tom Cruise, Cary Elwes
+Producers: J.J. Abrams
+Directors: Christopher McQuarrie
+Genre: Action/Adventure
+Date: Sep, 30, 2022
+Poster: https://thenuttyscribes.com/wp-content/uploads/2020/09/mi2.jpg
+Trailer: https://www.youtube.com/watch?v=ugJ35fgkFtY
+

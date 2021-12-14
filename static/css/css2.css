@@ -1,7 +1,7 @@
 h1 {
   padding: 60px;
   text-align: center;
-  background: #373d3c;
+  background: lightgrey;
   color: white;
   font-size: 60px;
 }
@@ -57,4 +57,17 @@ tbody tr:nth-child(odd) {
 
 tbody tr:nth-child(even) {
   background-color: #d6d6d680;
+}
+
+.whitecolor {
+  color:whitesmoke;
+}
+
+.basecolor {
+  background-color: peachpuff;
+  background-color: #3d94e0;
+}
+
+.h1forlife{
+  background-color:lightskyblue;
 }

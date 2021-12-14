@@ -40,8 +40,12 @@ def editMoviePageView(request, id):
 def updateMoviePageView(request):
     if request.method == 'POST':
         movie = Movie.objects.get(id = request.POST['id'])
-        rating = Rating.objects.get(movie_id=request.POST['id'])
-
+        try:
+            rating = Rating.objects.get(movie_id=request.POST['id'])
+        except Exception:
+            rating = Rating()
+            rating.movie_id = movie.id
+            
         movie.title = request.POST['title']
         movie.directors = request.POST['directors']
         movie.producers = request.POST['producers']
