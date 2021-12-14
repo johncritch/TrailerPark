@@ -2,16 +2,19 @@
 {% load static %}
 {% block content %}
 <h1>This is where all the upcoming movies will be listed!</h1>
+<a href="{% url 'add' %}">Add</a>
 <table>
     <tr>
-        <th>Title</th>
+        <th  width = 175px>Title</th>
         <th>Actors</th>
         <th>Producers</th>
         <th>Directors</th>
         <th>Genre</th>
         <th>Release Date</th>
         <th>Poster</th>
-        <th>Trailer</th>
+        <th  width = 250px>Trailer</th>
+        <th>Hype Score</th>
+        <th>Tools</th>
     </tr>
     {% for movie in movies %}
     <tr>
@@ -25,7 +28,13 @@
         <td>
             <iframe width="225" height="150" src="{{movie.trailer}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
+        <td>{{movie.rating.rating}}</td>
+        <td>
+            <a href="{% url 'edit' id=movie.id %}">Edit</a>
+            <a href="{% url 'delete' id=movie.id %}" onclick="return confirm('Are you sure you would like to delete {{movie.title}} from all records?')">Delete</a>
+        </td>
     </tr>
+
     {% endfor %}
 </table>
 {% endblock %}
