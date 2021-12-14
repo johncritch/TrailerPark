@@ -23,3 +23,13 @@ Genre: Animation/Fantasy
 Date: June 17th 2022
 Poster: https://static.wikia.nocookie.net/disney/images/b/bb/Lightyear_teaser_poster.jpg/revision/latest?cb=20211027125546
 trailer: https://www.youtube.com/embed/BwPL0Md_QFQ
+
+Matrix
+Title: The Matrix Resurrections
+Actors: Chris Evans, Taika Waititi
+Producers: Galyn Susman
+Directors: Angus MacLane
+Genre: Animation/Fantasy
+Date: June 17th 2022
+Poster: https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F6138c56def0fefe0a3f2fe73%2F0x0.jpg
+Trailer: https://www.youtube.com/embed/nNpvWBuTfrc
