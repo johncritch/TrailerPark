@@ -1,1 +1,1 @@
-web: gunicorn TrailerPark.wsgi
+web: gunicorn trailerpark.wsgi
