@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<form name="form" method="post" action="{% url 'add' %}" enctype='multipart/form-data'>
+    {% csrf_token %}
+
+    <label for='title'>Title:</label>
+    <input type="text" name='title' id="title" autofocus>
+    <br><br>
+
+    <label for='actors'>Actors:</label>
+    <input type="text" name='actors' id="actors">
+    <br><br>
+
+    <label for='producers'>Producers:</label>
+    <input type="text" name='producers' id="producers">
+    <br><br>
+
+    <label for='directors'>Directors:</label>
+    <input type="text" name='directors' id="directors">
+    <br><br>
+
+    <label for='genre'>Genre:</label>
+    <input type="text" name='genre' id="genre">
+    <br><br>
+
+    <label for='release_date'>Release Date:</label>
+    <input type="date" name='release_date' id="release_date">
+    <br><br>
+
+    <label for='poster'>Poster Art:</label>
+    <input type="file" name='poster' id='poster'>
+    <br><br>
+
+    <label for='trailer'>Trailer:</label>
+    <input type="text" name='trailer' id="trailer">
+    <br><br>
+
+    <label for='rating'>Hype Score:</label>
+    <input type="text" name='rating' id="rating">
+    <br><br>
+
+    <button type='submit'>Update</button>
+</form>
+{% endblock %}
